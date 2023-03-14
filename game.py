@@ -23,7 +23,7 @@ class Room:
     def get_details(self) -> str:
         """this function returns details of room and game's process"""
         print(f"{self.room}\n--------------------\n{self.description}")
-        for part, room in self.sides_of_the_world.items():
+        for part, room in self.sides_of_the_world.items().__reversed__():
             print(f"The {room.room} is {part}")
 
     def set_character(self, character: 'Enemy') -> None:
@@ -45,11 +45,10 @@ class Room:
     def move(self, command: str) -> str:
         """this function returns move to another room"""
         return self.sides_of_the_world[command]
+NUMBER = 0
 
 class Enemy:
     """class for enemy"""
-
-    number = 0
 
     def __init__(self, name: str, description: str) -> None:
         """main function"""
@@ -77,7 +76,8 @@ class Enemy:
     def fight(self, item: str) -> bool:
         """this function check if a character is weak in the item"""
         if item == self.weakness:
-            self.number += 1
+            global NUMBER
+            NUMBER += 1
             print(f"You fend {self.name} off with the {self.weakness}")
             return True
         print(f"{self.name} crushes you, puny adventurer!")
@@ -85,7 +85,7 @@ class Enemy:
 
     def get_defeated(self) -> int:
         """this function returns the number of defeated"""
-        return self.number
+        return NUMBER
 
 class Item:
     """class for item"""

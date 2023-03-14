@@ -1,0 +1,129 @@
+commands in the terminal:
+"talk" - you can talk to the characters
+"take" - you can take items if they are in the street
+"fight" - you can fight with the characters
+or you can input sides of the world
+
+
+Kozelnytska
+--------------------
+Street where the campus is located.
+The Stryiska is north
+Oleksandr is here!
+A policeman who patrols in the city.
+The [money] is here - A bad way to avoid responsibility'
+> talk
+[Oleksandr says]: Good day! Show your documents.
+
+
+Kozelnytska
+--------------------
+Street where the campus is located.
+The Stryiska is north
+Oleksandr is here!
+A policeman who patrols in the city.
+The [money] is here - A bad way to avoid responsibility'
+> take
+You put the money in your backpack
+
+
+Kozelnytska
+--------------------
+Street where the campus is located.
+The Stryiska is north
+Oleksandr is here!
+A policeman who patrols in the city.
+> fight
+What will you fight with?
+money
+You fend Oleksandr off with the money
+Hooray, you won the fight!
+
+
+Kozelnytska
+--------------------
+Street where the campus is located.
+The Stryiska is north
+> north
+
+
+Stryiska
+--------------------
+A street with a large park for walking.
+The Kozelnytska is south
+The Shevchenko is west
+Sergiy is here!
+A strange men with dog Rex.
+The [alcohol] is here - Any kind of alcohol
+> talk
+[Sergiy says]: Tell me what time it is.
+
+
+Stryiska
+--------------------
+A street with a large park for walking.
+The Kozelnytska is south
+The Shevchenko is west
+Sergiy is here!
+A strange men with dog Rex.
+The [alcohol] is here - Any kind of alcohol
+> take
+You put the alcohol in your backpack
+
+
+Stryiska
+--------------------
+A street with a large park for walking.
+The Kozelnytska is south
+The Shevchenko is west
+Sergiy is here!
+A strange men with dog Rex.
+> fight
+What will you fight with?
+alcohol
+You fend Sergiy off with the alcohol
+Hooray, you won the fight!
+
+
+Stryiska
+--------------------
+A street with a large park for walking.
+The Kozelnytska is south
+The Shevchenko is west
+> west
+
+
+Shevchenko
+--------------------
+Street where the cinema is located.
+The Stryiska is east
+Vadym is here!
+A street thief with dark eyes and dark clothes.
+The [mobile phone] is here - A device that costs a lot of money
+> talk
+[Vadym says]: Can I use your mobile phone to make a call?
+
+
+Shevchenko
+--------------------
+Street where the cinema is located.
+The Stryiska is east
+Vadym is here!
+A street thief with dark eyes and dark clothes.
+The [mobile phone] is here - A device that costs a lot of money
+> take
+You put the mobile phone in your backpack
+
+
+Shevchenko
+--------------------
+Street where the cinema is located.
+The Stryiska is east
+Vadym is here!
+A street thief with dark eyes and dark clothes.
+> fight
+What will you fight with?
+mobile phone
+You fend Vadym off with the mobile phone
+Hooray, you won the fight!
+Congratulations, you have defeated the enemy!

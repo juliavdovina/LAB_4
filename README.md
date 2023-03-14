@@ -2,7 +2,7 @@
 Task 5 and 6 from lab4
 
 
-##TASK 5
+##TASK 5##
 
 ***To start playing you have to:***
 
@@ -22,7 +22,7 @@ Each room has a description that is printed when the player enters it.
 To win the battle, the player must have a certain item in his backpack, which is the character's weakness. If the player defeats at least 2 characters, he/she wins the game. However, if a player tries to fight an enemy with an inappropriate item, he or she will lose.
 
 
-##TASK 6
+##TASK 6##
 
 ***To start playing you have to:***
 
